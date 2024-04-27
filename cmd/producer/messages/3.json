@@ -1,0 +1,62 @@
+{
+  "order_uid": "f8e2c1a3d6b5a7c9test",
+  "track_number": "TRACKTEST123",
+  "entry": "ENTRY456",
+  "delivery": {
+    "name": "Alice Smith",
+    "phone": "+11234567890",
+    "zip": "10001",
+    "city": "New York",
+    "address": "789 Elm Street",
+    "region": "NY",
+    "email": "alice.smith@example.com"
+  },
+  "payment": {
+    "transaction": "f8e2c1a3d6b5a7c9test",
+    "request_id": "REQ456",
+    "currency": "GBP",
+    "provider": "stripe",
+    "amount": 1500,
+    "payment_dt": 1648764000,
+    "bank": "charlie",
+    "delivery_cost": 1200,
+    "goods_total": 300,
+    "custom_fee": 0
+  },
+  "items": [
+    {
+      "chrt_id": 246810,
+      "track_number": "TRACKTEST123",
+      "price": 600,
+      "rid": "ab9876543a764ae0btest",
+      "name": "Sneakers",
+      "sale": 0,
+      "size": "9",
+      "total_price": 600,
+      "nm_id": 135792,
+      "brand": "Adidas",
+      "status": 203
+    },
+    {
+      "chrt_id": 135792,
+      "track_number": "TRACKTEST123",
+      "price": 400,
+      "rid": "cd9876543a764ae0btest",
+      "name": "Trousers",
+      "sale": 0,
+      "size": "32",
+      "total_price": 400,
+      "nm_id": 246810,
+      "brand": "H&M",
+      "status": 201
+    }
+  ],
+  "locale": "en",
+  "internal_signature": "xyz789",
+  "customer_id": "user456",
+  "delivery_service": "fedex",
+  "shardkey": "7",
+  "sm_id": 66,
+  "date_created": "2022-05-20T15:30:00Z",
+  "oof_shard": "3"
+}

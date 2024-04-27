@@ -1,0 +1,15 @@
+server:
+  host: localhost
+  port: 8080
+db:
+  dbname: "orderwb"
+  host: "localhost"
+  user: "admin"
+  password: "password"
+  port: 5432
+  sslmode: disable
+nats:
+  url: "nats://localhost:4222"
+  subject: "order"
+  cluster: "test-cluster"
+  client: "stan-pub"
